@@ -27,12 +27,12 @@ function Footer() {
                     </div>
                 </Col>
                 <Col xs={6} md={2} className='ms-5'>
-                   <p><a  className='text-white'>Quick Links</a></p>
-                   <p><a className='text-white'>Home</a></p> 
-                   <p><a className='text-white'>AboutUs</a></p> 
-                   <p><a  className='text-white'>Services</a></p> 
-                    <p><a className='text-white'>Products</a></p>
-                    <p><a  className='text-white'>Contact Us</a></p>
+                   <p><a href='/Home' className='text-white'>Quick Links</a></p>
+                   <p><a href='/Home' className='text-white'>Home</a></p> 
+                   <p><a  href='/Home' className='text-white'>AboutUs</a></p> 
+                   <p><a  href='/Home'  className='text-white'>Services</a></p> 
+                    <p><a  href='/Home' className='text-white'>Products</a></p>
+                    <p><a  href='/Home' className='text-white'>Contact Us</a></p>
                 </Col>
                 <Col xs={6} md={2} className='footer-col'>
                 <p><a  href='/Home' className='text-white'>Locations</a></p>
