@@ -35,10 +35,10 @@ function Navbarsection() {
     </Navbar>
     <div className='d-flex m-3 main-nav-div p-2 d-flex justify-content-center'>
       <button className='nav-btn-1'>
-    <img src={Vector}></img>All catogries
+    <img src={Vector} alt=''></img>All catogries
       </button>
       <div className='d-flex'> 
-        <button className='nav-btn-2'>What are you looking for?</button><img src={Form}></img>
+        <button className='nav-btn-2'>What are you looking for?</button><img src={Form} alt=''></img>
       </div>
     </div>
     </div>

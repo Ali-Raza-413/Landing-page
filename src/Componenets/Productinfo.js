@@ -17,26 +17,26 @@ function Productinfo() {
       <Col xs={12} md={6} className='mt-2'>
         <Card className='cardpad'>
            <div className='d-flex gap-4 mob'> 
-            <Card.Img className='img-bottle' src={bottle}/>
+            <Card.Img className='img-bottle' src={bottle} alt=''/>
             <div>
             <Card.Text className='p-2 mt-3'>  
                 <h4>Elegant Perfumes </h4>
                 <h5>1$16.00 </h5>
                 <div className='d-flex gap-2'>
-                <img width='10px' src={listarrow}></img>
+                <img width='10px' src={listarrow} alt=''></img>
                 <p>Long Lasting</p>
                 </div>
                 <div className='d-flex gap-2'>
-                <img src={listarrow}></img>
+                <img src={listarrow} alt=''></img>
                 
                 <p>Affordable price</p>
                 </div>
                 <div className='d-flex gap-2'>
-                <img src={listarrow}></img>
+                <img src={listarrow} alt=''></img>
                 <p>Best Perfume</p>
                 </div>
                 <button className="buttonWithIcon">
-                <img src={mask} alt="Mask Icon" className="icon" />
+                <img src={mask} alt="Mask Icon"  className="icon" />
                   Buy Now
                 </button>
             </Card.Text>
@@ -52,11 +52,11 @@ function Productinfo() {
                 <h4>Strawberry Shampoo </h4>
                 <h5>$18.88  </h5>
                 <div className='d-flex gap-2'>
-                <img src={listarrow}></img>
+                <img src={listarrow} alt=''></img>
                 <p>Allergy free</p>
                 </div>
                 <div className='d-flex gap-2'>
-                <img src={listarrow}></img>
+                <img src={listarrow} alt=''></img>
                 
                 <p>Best Product</p>
                 </div>
@@ -101,7 +101,7 @@ function Productinfo() {
     </Row>
     <div className='d-flex jusify-content-between gap-5 mt-5 flex-wrap'>
         <div>
-            <img className='polygon' src={Polygon}></img>
+            <img className='polygon' src={Polygon} alt=''></img>
         </div>
         <div>
             <h1 className='big-text m-5'>Big city savings, <br></br>delivered to <br></br>your<span className='text-color'> doorstep.</span></h1>

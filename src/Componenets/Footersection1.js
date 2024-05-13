@@ -8,7 +8,7 @@ function Footersection1() {
     <div>
         <div className='footer-1 d-flex'>
             <div className='ms-5'>
-                <img className='footer1-img' src={menbook}></img>
+                <img className='footer1-img' src={menbook} alt=''></img>
             </div>
             <div>
                 <h1 className='h-footer'>SignUp For Exclusive Offers<br></br> And Discounts</h1>

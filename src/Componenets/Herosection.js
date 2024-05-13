@@ -18,9 +18,9 @@ function Herosection() {
         <button className='btn-shop'>ShopNow</button>
         </div> 
         <div className='bg-img  flex-wrap'>
-        <img className='img-mob' width="600px" height="380px" src={smiilling}></img>
+        <img className='img-mob' width="600px" height="380px" src={smiilling} alt=''></img>
         <div className='d-flex gap-3 bg-text'>
-         <img src={Ellipse} ></img>
+         <img src={Ellipse} alt=''></img>
          <div>
          <h6>Ashely Daniels</h6>
          <p className='p-text-1'>"Saved me tons of time - never going back to grocery shopping!"</p>

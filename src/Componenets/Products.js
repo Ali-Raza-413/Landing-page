@@ -14,37 +14,37 @@ import seconds from  '../../src/Images/seconds.png'
 function Products() {
   return (
     <div className='p-5'>
-     <p className='p-tend'>Trending Products<img className='mt-3' src={Ellipset}></img></p>
+     <p className='p-tend'>Trending Products<img className='mt-3' alt='' src={Ellipset}></img></p>
       <div>
       <Row xs={1} md={5} className="g-2 p-5">
         <Col>
           <Card className='card-style'>
-            <Card.Img src={pack}/>
+            <Card.Img src={pack} alt=''/>
               
           </Card>
           <p className='text-center'>Grocery</p>
         </Col>
         <Col>
           <Card className='card-style'>
-            <Card.Img  src={Shoes}  />
+            <Card.Img  src={Shoes} alt='' />
           </Card>
           <p className='text-center'>Shoes</p>
         </Col>
         <Col>
           <Card className='card-style'>
-            <Card.Img  src={Mobile}  />
+            <Card.Img  src={Mobile} alt=''/>
           </Card>
           <p className='text-center'>Mobile</p>
         </Col>
         <Col>
           <Card className='card-style'>
-            <Card.Img  src={googlehome} />
+            <Card.Img  src={googlehome}alt='' />
           </Card>
           <p className='text-center'>googlehome</p>
         </Col>
         <Col>
           <Card className='card-style'>
-            <Card.Img  src={clock}  />
+            <Card.Img  src={clock} alt='' />
           </Card>
           <p className='text-center'>clock</p>
         </Col>
@@ -55,10 +55,10 @@ function Products() {
         <p className=' m-2 p-deal'>Deal of the week</p>
       </div>
       <div className='d-flex gap-1'>
-        <img src={days}></img>
-        <img src={hours}></img>
-        <img src={minutes}></img>
-        <img src={seconds}></img>
+        <img src={days} alt=''></img>
+        <img src={hours} alt=''></img>
+        <img src={minutes} alt=''></img>
+        <img src={seconds} alt=''></img>
       </div>
       </div>
     </div>
