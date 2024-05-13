@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../src/App.css';
 import { Col, Row } from 'react-bootstrap'
-import QuickPik from '../../src/Images/QuickPik.png'
 import youtube from '../../src/Images/youtube.png'
 import instagram from '../../src/Images/instagram.png'
 import cross from '../../src/Images/cross.png'
@@ -20,10 +19,10 @@ function Footer() {
                        <h3 className='text-white mt-2'>Shop smarter, not harder.<br></br> 
                         Get it delivered</h3>
                         <div className='d-flex gap-1 mt-3 '>
-                            <img src={instagram}></img>
-                            <img src={cross}></img>
-                            <img src={youtube}></img>
-                            <img src={facebook}></img>
+                            <img src={instagram} alt=''></img>
+                            <img src={cross} alt=''></img>
+                            <img src={youtube} alt=''></img>
+                            <img src={facebook} alt=''></img>
                         </div>
                     </div>
                 </Col>
@@ -45,7 +44,7 @@ function Footer() {
                 </Col>
                 <Col xs={12} md={3}>
                     <div>
-                    <img className='img-shop' src={onlineshopiing}></img>
+                    <img className='img-shop' src={onlineshopiing} alt=''></img>
                     </div>
                 </Col>
             </Row>
