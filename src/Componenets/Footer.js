@@ -27,20 +27,20 @@ function Footer() {
                     </div>
                 </Col>
                 <Col xs={6} md={2} className='ms-5'>
-                   <p><a href='' className='text-white'>Quick Links</a></p>
-                   <p><a href=''className='text-white'>Home</a></p> 
-                   <p><a href='' className='text-white'>AboutUs</a></p> 
-                   <p><a href='' className='text-white'>Services</a></p> 
-                    <p><a href='' className='text-white'>Products</a></p>
-                    <p><a href='' className='text-white'>Contact Us</a></p>
+                   <p><a  className='text-white'>Quick Links</a></p>
+                   <p><a className='text-white'>Home</a></p> 
+                   <p><a className='text-white'>AboutUs</a></p> 
+                   <p><a  className='text-white'>Services</a></p> 
+                    <p><a className='text-white'>Products</a></p>
+                    <p><a  className='text-white'>Contact Us</a></p>
                 </Col>
                 <Col xs={6} md={2} className='footer-col'>
-                <p><a href='' className='text-white'>Locations</a></p>
-                   <p><a href=''className='text-white'>Mumbai</a></p> 
-                   <p><a href='' className='text-white'>Pune</a></p> 
-                   <p><a href='' className='text-white'>Nagpur</a></p> 
-                    <p><a href='' className='text-white'>Banglore</a></p>
-                    <p><a href='' className='text-white'>Goa</a></p>
+                <p><a className='text-white'>Locations</a></p>
+                   <p><a className='text-white'>Mumbai</a></p> 
+                   <p><a  className='text-white'>Pune</a></p> 
+                   <p><a  className='text-white'>Nagpur</a></p> 
+                    <p><a  className='text-white'>Banglore</a></p>
+                    <p><a  className='text-white'>Goa</a></p>
                 </Col>
                 <Col xs={12} md={3}>
                     <div>

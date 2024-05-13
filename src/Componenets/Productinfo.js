@@ -61,7 +61,7 @@ function Productinfo() {
                 <p>Best Product</p>
                 </div>
                 <div className='d-flex gap-2'>
-                <img src={listarrow}></img>
+                <img src={listarrow} alt=''></img>
                 <p>Affordable price</p>
                 </div>
                 <button className="buttonWithIcon">
